@@ -1,0 +1,28 @@
+{
+  "name": "covoituragebackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "migrate": "node utils/database.js"
+  },
+  "keywords": ["covoiturage", "api", "nodejs"],
+  "author": "BadriYasser",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
